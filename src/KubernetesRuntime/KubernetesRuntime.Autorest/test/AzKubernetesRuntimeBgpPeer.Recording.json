@@ -1,0 +1,219 @@
+{
+  "AzKubernetesRuntimeBgpPeer+[NoContext]+Creates, Gets and Deletes a bgp peer+$PUT+https://management.azure.com//subscriptions/b9e38f20-7c9c-4497-a25d-1a0c5eef2108/resourceGroups/k8sruntime-pwsh-test-rg-76awv3/providers/Microsoft.Kubernetes/connectedClusters/76awv3-arc/providers/Microsoft.KubernetesRuntime/bgpPeers/test1?api-version=2024-05-01-preview+1": {
+    "Request": {
+      "Method": "PUT",
+      "RequestUri": "https://management.azure.com//subscriptions/b9e38f20-7c9c-4497-a25d-1a0c5eef2108/resourceGroups/k8sruntime-pwsh-test-rg-76awv3/providers/Microsoft.Kubernetes/connectedClusters/76awv3-arc/providers/Microsoft.KubernetesRuntime/bgpPeers/test1?api-version=2024-05-01-preview",
+      "Content": "{\n  \"properties\": {\n    \"myAsn\": 10000,\n    \"peerAsn\": 20000,\n    \"peerAddress\": \"192.168.50.1\"\n  }\n}",
+      "isContentBase64": false,
+      "Headers": {
+      },
+      "ContentHeaders": {
+        "Content-Type": [ "application/json" ],
+        "Content-Length": [ "101" ]
+      }
+    },
+    "Response": {
+      "StatusCode": 200,
+      "Headers": {
+        "Cache-Control": [ "no-cache" ],
+        "Pragma": [ "no-cache" ],
+        "ETag": [ "\"00001d14-0000-3400-0000-66c421450000\"" ],
+        "x-ms-ratelimit-remaining-subscription-writes": [ "1199" ],
+        "x-ms-providerhub-traffic": [ "True" ],
+        "mise-correlation-id": [ "c044d669-3fc9-4900-bfdc-96fb5481e3ca" ],
+        "x-ms-request-id": [ "cf3866ba-25af-491c-80d0-e33c5669db8a" ],
+        "x-ms-correlation-request-id": [ "b8d4fff5-e3fe-426a-a32c-7b5330fd938c" ],
+        "x-ms-routing-request-id": [ "JAPANEAST:20240820T045325Z:b8d4fff5-e3fe-426a-a32c-7b5330fd938c" ],
+        "Strict-Transport-Security": [ "max-age=31536000; includeSubDomains" ],
+        "X-Content-Type-Options": [ "nosniff" ],
+        "X-Cache": [ "CONFIG_NOCACHE" ],
+        "X-MSEdge-Ref": [ "Ref A: 7B08E89699084011A8F07B4AE30C4F04 Ref B: TYO201100113045 Ref C: 2024-08-20T04:53:12Z" ],
+        "Date": [ "Tue, 20 Aug 2024 04:53:25 GMT" ]
+      },
+      "ContentHeaders": {
+        "Content-Length": [ "624" ],
+        "Content-Type": [ "application/json; charset=utf-8" ],
+        "Expires": [ "-1" ]
+      },
+      "Content": "{\"id\":\"/subscriptions/b9e38f20-7c9c-4497-a25d-1a0c5eef2108/resourceGroups/k8sruntime-pwsh-test-rg-76awv3/providers/Microsoft.Kubernetes/connectedClusters/76awv3-arc/providers/Microsoft.KubernetesRuntime/bgpPeers/test1\",\"name\":\"test1\",\"type\":\"microsoft.kubernetesruntime/bgppeers\",\"systemData\":{\"createdBy\":\"xinyichen@microsoft.com\",\"createdByType\":\"User\",\"createdAt\":\"2024-08-20T04:53:14.1086408Z\",\"lastModifiedBy\":\"xinyichen@microsoft.com\",\"lastModifiedByType\":\"User\",\"lastModifiedAt\":\"2024-08-20T04:53:14.1086408Z\"},\"properties\":{\"myAsn\":10000,\"peerAsn\":20000,\"peerAddress\":\"192.168.50.1\",\"provisioningState\":\"Succeeded\"}}",
+      "isContentBase64": false
+    }
+  },
+  "AzKubernetesRuntimeBgpPeer+[NoContext]+Creates, Gets and Deletes a bgp peer+$GET+https://management.azure.com//subscriptions/b9e38f20-7c9c-4497-a25d-1a0c5eef2108/resourceGroups/k8sruntime-pwsh-test-rg-76awv3/providers/Microsoft.Kubernetes/connectedClusters/76awv3-arc/providers/Microsoft.KubernetesRuntime/bgpPeers/test1?api-version=2024-05-01-preview+2": {
+    "Request": {
+      "Method": "GET",
+      "RequestUri": "https://management.azure.com//subscriptions/b9e38f20-7c9c-4497-a25d-1a0c5eef2108/resourceGroups/k8sruntime-pwsh-test-rg-76awv3/providers/Microsoft.Kubernetes/connectedClusters/76awv3-arc/providers/Microsoft.KubernetesRuntime/bgpPeers/test1?api-version=2024-05-01-preview",
+      "Content": null,
+      "isContentBase64": false,
+      "Headers": {
+        "Authorization": [ "[Filtered]" ],
+        "x-ms-unique-id": [ "13" ],
+        "x-ms-client-request-id": [ "2335a778-f608-4524-92ad-c53646aca97b" ],
+        "CommandName": [ "New-AzKubernetesRuntimeBgpPeer" ],
+        "FullCommandName": [ "New-AzKubernetesRuntimeBgpPeer_CreateExpanded" ],
+        "ParameterSetName": [ "__AllParameterSets" ],
+        "User-Agent": [ "AzurePowershell/v0.0.0", "PSVersion/v7.2.19", "Az.KubernetesRuntime/0.1.0" ]
+      },
+      "ContentHeaders": {
+      }
+    },
+    "Response": {
+      "StatusCode": 200,
+      "Headers": {
+        "Cache-Control": [ "no-cache" ],
+        "Pragma": [ "no-cache" ],
+        "ETag": [ "\"00001d14-0000-3400-0000-66c421450000\"" ],
+        "x-ms-ratelimit-remaining-subscription-reads": [ "11998" ],
+        "x-ms-providerhub-traffic": [ "True" ],
+        "x-ms-request-id": [ "ca8f129c-02a7-4cda-8184-3c87cb900204" ],
+        "x-ms-correlation-request-id": [ "a6d0f5cc-b9f6-4fa8-b373-01a957024e20" ],
+        "x-ms-routing-request-id": [ "JAPANEAST:20240820T045402Z:a6d0f5cc-b9f6-4fa8-b373-01a957024e20" ],
+        "Strict-Transport-Security": [ "max-age=31536000; includeSubDomains" ],
+        "X-Content-Type-Options": [ "nosniff" ],
+        "X-Cache": [ "CONFIG_NOCACHE" ],
+        "X-MSEdge-Ref": [ "Ref A: 79AEF5DAF96C433ABBF9DAD3AF719C4B Ref B: TYO201100113045 Ref C: 2024-08-20T04:53:56Z" ],
+        "Date": [ "Tue, 20 Aug 2024 04:54:01 GMT" ]
+      },
+      "ContentHeaders": {
+        "Content-Length": [ "624" ],
+        "Content-Type": [ "application/json; charset=utf-8" ],
+        "Expires": [ "-1" ]
+      },
+      "Content": "{\"id\":\"/subscriptions/b9e38f20-7c9c-4497-a25d-1a0c5eef2108/resourceGroups/k8sruntime-pwsh-test-rg-76awv3/providers/Microsoft.Kubernetes/connectedClusters/76awv3-arc/providers/Microsoft.KubernetesRuntime/bgpPeers/test1\",\"name\":\"test1\",\"type\":\"microsoft.kubernetesruntime/bgppeers\",\"systemData\":{\"createdBy\":\"xinyichen@microsoft.com\",\"createdByType\":\"User\",\"createdAt\":\"2024-08-20T04:53:14.1086408Z\",\"lastModifiedBy\":\"xinyichen@microsoft.com\",\"lastModifiedByType\":\"User\",\"lastModifiedAt\":\"2024-08-20T04:53:14.1086408Z\"},\"properties\":{\"myAsn\":10000,\"peerAsn\":20000,\"peerAddress\":\"192.168.50.1\",\"provisioningState\":\"Succeeded\"}}",
+      "isContentBase64": false
+    }
+  },
+  "AzKubernetesRuntimeBgpPeer+[NoContext]+Creates, Gets and Deletes a bgp peer+$GET+https://management.azure.com//subscriptions/b9e38f20-7c9c-4497-a25d-1a0c5eef2108/resourceGroups/k8sruntime-pwsh-test-rg-76awv3/providers/Microsoft.Kubernetes/connectedClusters/76awv3-arc/providers/Microsoft.KubernetesRuntime/bgpPeers/test1?api-version=2024-05-01-preview+3": {
+    "Request": {
+      "Method": "GET",
+      "RequestUri": "https://management.azure.com//subscriptions/b9e38f20-7c9c-4497-a25d-1a0c5eef2108/resourceGroups/k8sruntime-pwsh-test-rg-76awv3/providers/Microsoft.Kubernetes/connectedClusters/76awv3-arc/providers/Microsoft.KubernetesRuntime/bgpPeers/test1?api-version=2024-05-01-preview",
+      "Content": null,
+      "isContentBase64": false,
+      "Headers": {
+        "Authorization": [ "[Filtered]" ],
+        "x-ms-unique-id": [ "14" ],
+        "x-ms-client-request-id": [ "2335a778-f608-4524-92ad-c53646aca97b" ],
+        "CommandName": [ "New-AzKubernetesRuntimeBgpPeer" ],
+        "FullCommandName": [ "New-AzKubernetesRuntimeBgpPeer_CreateExpanded" ],
+        "ParameterSetName": [ "__AllParameterSets" ],
+        "User-Agent": [ "AzurePowershell/v0.0.0", "PSVersion/v7.2.19", "Az.KubernetesRuntime/0.1.0" ]
+      },
+      "ContentHeaders": {
+      }
+    },
+    "Response": {
+      "StatusCode": 200,
+      "Headers": {
+        "Cache-Control": [ "no-cache" ],
+        "Pragma": [ "no-cache" ],
+        "ETag": [ "\"00001d14-0000-3400-0000-66c421450000\"" ],
+        "x-ms-ratelimit-remaining-subscription-reads": [ "11999" ],
+        "x-ms-providerhub-traffic": [ "True" ],
+        "x-ms-request-id": [ "fe099ea9-5e59-44ed-b936-7e163ff23b00" ],
+        "x-ms-correlation-request-id": [ "a4a993a6-b360-42a6-8e3f-2f93599025da" ],
+        "x-ms-routing-request-id": [ "JAPANEAST:20240820T045406Z:a4a993a6-b360-42a6-8e3f-2f93599025da" ],
+        "Strict-Transport-Security": [ "max-age=31536000; includeSubDomains" ],
+        "X-Content-Type-Options": [ "nosniff" ],
+        "X-Cache": [ "CONFIG_NOCACHE" ],
+        "X-MSEdge-Ref": [ "Ref A: DCEE3BD3166F4140AF5E87D81C772DF4 Ref B: TYO201100113045 Ref C: 2024-08-20T04:54:02Z" ],
+        "Date": [ "Tue, 20 Aug 2024 04:54:05 GMT" ]
+      },
+      "ContentHeaders": {
+        "Content-Length": [ "624" ],
+        "Content-Type": [ "application/json; charset=utf-8" ],
+        "Expires": [ "-1" ]
+      },
+      "Content": "{\"id\":\"/subscriptions/b9e38f20-7c9c-4497-a25d-1a0c5eef2108/resourceGroups/k8sruntime-pwsh-test-rg-76awv3/providers/Microsoft.Kubernetes/connectedClusters/76awv3-arc/providers/Microsoft.KubernetesRuntime/bgpPeers/test1\",\"name\":\"test1\",\"type\":\"microsoft.kubernetesruntime/bgppeers\",\"systemData\":{\"createdBy\":\"xinyichen@microsoft.com\",\"createdByType\":\"User\",\"createdAt\":\"2024-08-20T04:53:14.1086408Z\",\"lastModifiedBy\":\"xinyichen@microsoft.com\",\"lastModifiedByType\":\"User\",\"lastModifiedAt\":\"2024-08-20T04:53:14.1086408Z\"},\"properties\":{\"myAsn\":10000,\"peerAsn\":20000,\"peerAddress\":\"192.168.50.1\",\"provisioningState\":\"Succeeded\"}}",
+      "isContentBase64": false
+    }
+  },
+  "AzKubernetesRuntimeBgpPeer+[NoContext]+Creates, Gets and Deletes a bgp peer+$GET+https://management.azure.com//subscriptions/b9e38f20-7c9c-4497-a25d-1a0c5eef2108/resourceGroups/k8sruntime-pwsh-test-rg-76awv3/providers/Microsoft.Kubernetes/connectedClusters/76awv3-arc/providers/Microsoft.KubernetesRuntime/bgpPeers/test1?api-version=2024-05-01-preview+4": {
+    "Request": {
+      "Method": "GET",
+      "RequestUri": "https://management.azure.com//subscriptions/b9e38f20-7c9c-4497-a25d-1a0c5eef2108/resourceGroups/k8sruntime-pwsh-test-rg-76awv3/providers/Microsoft.Kubernetes/connectedClusters/76awv3-arc/providers/Microsoft.KubernetesRuntime/bgpPeers/test1?api-version=2024-05-01-preview",
+      "Content": null,
+      "isContentBase64": false,
+      "Headers": {
+        "x-ms-unique-id": [ "15" ],
+        "x-ms-client-request-id": [ "99d9797f-b121-40ff-8187-b72e81954452" ],
+        "CommandName": [ "Get-AzKubernetesRuntimeBgpPeer" ],
+        "FullCommandName": [ "Get-AzKubernetesRuntimeBgpPeer_Get" ],
+        "ParameterSetName": [ "__AllParameterSets" ],
+        "User-Agent": [ "AzurePowershell/v0.0.0", "PSVersion/v7.2.19", "Az.KubernetesRuntime/0.1.0" ],
+        "Authorization": [ "[Filtered]" ]
+      },
+      "ContentHeaders": {
+      }
+    },
+    "Response": {
+      "StatusCode": 200,
+      "Headers": {
+        "Cache-Control": [ "no-cache" ],
+        "Pragma": [ "no-cache" ],
+        "ETag": [ "\"00001d14-0000-3400-0000-66c421450000\"" ],
+        "x-ms-ratelimit-remaining-subscription-reads": [ "11996" ],
+        "x-ms-providerhub-traffic": [ "True" ],
+        "x-ms-request-id": [ "59ccb7b3-8289-499a-9ec2-d45a11cdeb2d" ],
+        "x-ms-correlation-request-id": [ "8f6f59ce-6c9f-4808-a67c-bef9db9aacf1" ],
+        "x-ms-routing-request-id": [ "JAPANEAST:20240820T045412Z:8f6f59ce-6c9f-4808-a67c-bef9db9aacf1" ],
+        "Strict-Transport-Security": [ "max-age=31536000; includeSubDomains" ],
+        "X-Content-Type-Options": [ "nosniff" ],
+        "X-Cache": [ "CONFIG_NOCACHE" ],
+        "X-MSEdge-Ref": [ "Ref A: 9C8C6F8494E74063A7EF12833E9BCB04 Ref B: TYO201100113045 Ref C: 2024-08-20T04:54:06Z" ],
+        "Date": [ "Tue, 20 Aug 2024 04:54:11 GMT" ]
+      },
+      "ContentHeaders": {
+        "Content-Length": [ "624" ],
+        "Content-Type": [ "application/json; charset=utf-8" ],
+        "Expires": [ "-1" ]
+      },
+      "Content": "{\"id\":\"/subscriptions/b9e38f20-7c9c-4497-a25d-1a0c5eef2108/resourceGroups/k8sruntime-pwsh-test-rg-76awv3/providers/Microsoft.Kubernetes/connectedClusters/76awv3-arc/providers/Microsoft.KubernetesRuntime/bgpPeers/test1\",\"name\":\"test1\",\"type\":\"microsoft.kubernetesruntime/bgppeers\",\"systemData\":{\"createdBy\":\"xinyichen@microsoft.com\",\"createdByType\":\"User\",\"createdAt\":\"2024-08-20T04:53:14.1086408Z\",\"lastModifiedBy\":\"xinyichen@microsoft.com\",\"lastModifiedByType\":\"User\",\"lastModifiedAt\":\"2024-08-20T04:53:14.1086408Z\"},\"properties\":{\"myAsn\":10000,\"peerAsn\":20000,\"peerAddress\":\"192.168.50.1\",\"provisioningState\":\"Succeeded\"}}",
+      "isContentBase64": false
+    }
+  },
+  "AzKubernetesRuntimeBgpPeer+[NoContext]+Creates, Gets and Deletes a bgp peer+$DELETE+https://management.azure.com//subscriptions/b9e38f20-7c9c-4497-a25d-1a0c5eef2108/resourceGroups/k8sruntime-pwsh-test-rg-76awv3/providers/Microsoft.Kubernetes/connectedClusters/76awv3-arc/providers/Microsoft.KubernetesRuntime/bgpPeers/test1?api-version=2024-05-01-preview+5": {
+    "Request": {
+      "Method": "DELETE",
+      "RequestUri": "https://management.azure.com//subscriptions/b9e38f20-7c9c-4497-a25d-1a0c5eef2108/resourceGroups/k8sruntime-pwsh-test-rg-76awv3/providers/Microsoft.Kubernetes/connectedClusters/76awv3-arc/providers/Microsoft.KubernetesRuntime/bgpPeers/test1?api-version=2024-05-01-preview",
+      "Content": null,
+      "isContentBase64": false,
+      "Headers": {
+        "x-ms-unique-id": [ "16" ],
+        "x-ms-client-request-id": [ "87057581-9fab-4284-9a3f-8ac2e69bcfa1" ],
+        "CommandName": [ "Remove-AzKubernetesRuntimeBgpPeer" ],
+        "FullCommandName": [ "Remove-AzKubernetesRuntimeBgpPeer_Delete" ],
+        "ParameterSetName": [ "__AllParameterSets" ],
+        "User-Agent": [ "AzurePowershell/v0.0.0", "PSVersion/v7.2.19", "Az.KubernetesRuntime/0.1.0" ],
+        "Authorization": [ "[Filtered]" ]
+      },
+      "ContentHeaders": {
+      }
+    },
+    "Response": {
+      "StatusCode": 400,
+      "Headers": {
+        "Cache-Control": [ "no-cache" ],
+        "Pragma": [ "no-cache" ],
+        "x-ms-ratelimit-remaining-subscription-deletes": [ "14999" ],
+        "x-ms-providerhub-traffic": [ "True" ],
+        "mise-correlation-id": [ "a22f5fc9-6eb9-40cc-8d78-40bb9311ead2" ],
+        "x-ms-failure-cause": [ "service" ],
+        "x-ms-request-id": [ "4e03bbce-516f-4259-a473-7e65ac84d16d" ],
+        "x-ms-correlation-request-id": [ "766ad535-c6bf-485e-8c45-c4adf81c977e" ],
+        "x-ms-routing-request-id": [ "JAPANEAST:20240820T045413Z:766ad535-c6bf-485e-8c45-c4adf81c977e" ],
+        "Strict-Transport-Security": [ "max-age=31536000; includeSubDomains" ],
+        "X-Content-Type-Options": [ "nosniff" ],
+        "X-Cache": [ "CONFIG_NOCACHE" ],
+        "X-MSEdge-Ref": [ "Ref A: 39C6E349090842CEBCADD0F3EF195C9A Ref B: TYO201100113045 Ref C: 2024-08-20T04:54:12Z" ],
+        "Date": [ "Tue, 20 Aug 2024 04:54:12 GMT" ]
+      },
+      "ContentHeaders": {
+        "Content-Length": [ "154" ],
+        "Content-Type": [ "application/json" ],
+        "Expires": [ "-1" ]
+      },
+      "Content": "{\"error\":{\"code\":\"ResourceDeletionFailed\",\"message\":\"Resource deletion failed as RP returned status code: \u0027BadRequest\u0027 and error message \u0027Bad Request\u0027.\"}}",
+      "isContentBase64": false
+    }
+  }
+}

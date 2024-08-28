@@ -1,0 +1,261 @@
+{
+  "AzKubernetesRuntimeLoadBalancer+[NoContext]+Creates, Gets and Deletes a load balancer+$PUT+https://management.azure.com//subscriptions/b9e38f20-7c9c-4497-a25d-1a0c5eef2108/resourceGroups/k8sruntime-pwsh-test-rg-76awv3/providers/Microsoft.Kubernetes/connectedClusters/76awv3-arc/providers/Microsoft.KubernetesRuntime/loadBalancers/test1?api-version=2024-05-01-preview+1": {
+    "Request": {
+      "Method": "PUT",
+      "RequestUri": "https://management.azure.com//subscriptions/b9e38f20-7c9c-4497-a25d-1a0c5eef2108/resourceGroups/k8sruntime-pwsh-test-rg-76awv3/providers/Microsoft.Kubernetes/connectedClusters/76awv3-arc/providers/Microsoft.KubernetesRuntime/loadBalancers/test1?api-version=2024-05-01-preview",
+      "Content": "{\n  \"properties\": {\n    \"addresses\": [ \"192.168.50.1/32\" ],\n    \"advertiseMode\": \"ARP\"\n  }\n}",
+      "isContentBase64": false,
+      "Headers": {
+      },
+      "ContentHeaders": {
+        "Content-Type": [ "application/json" ],
+        "Content-Length": [ "92" ]
+      }
+    },
+    "Response": {
+      "StatusCode": 200,
+      "Headers": {
+        "Cache-Control": [ "no-cache" ],
+        "Pragma": [ "no-cache" ],
+        "ETag": [ "\"0b00753d-0000-3400-0000-66c421d00000\"" ],
+        "x-ms-ratelimit-remaining-subscription-writes": [ "1199" ],
+        "x-ms-providerhub-traffic": [ "True" ],
+        "mise-correlation-id": [ "acab9b37-c497-4ed5-ad89-cc71cb354fe9" ],
+        "x-ms-request-id": [ "4421f521-c2bf-4ac9-8074-bfdd0beffe79" ],
+        "x-ms-correlation-request-id": [ "48b9ffe2-0bf8-4899-abe3-c0ef418a85e8" ],
+        "x-ms-routing-request-id": [ "JAPANEAST:20240820T045545Z:48b9ffe2-0bf8-4899-abe3-c0ef418a85e8" ],
+        "Strict-Transport-Security": [ "max-age=31536000; includeSubDomains" ],
+        "X-Content-Type-Options": [ "nosniff" ],
+        "X-Cache": [ "CONFIG_NOCACHE" ],
+        "X-MSEdge-Ref": [ "Ref A: 9AB28F9169DD4E9C8847936148F6BF58 Ref B: TYO201151002062 Ref C: 2024-08-20T04:55:35Z" ],
+        "Date": [ "Tue, 20 Aug 2024 04:55:44 GMT" ]
+      },
+      "ContentHeaders": {
+        "Content-Length": [ "668" ],
+        "Content-Type": [ "application/json; charset=utf-8" ],
+        "Expires": [ "-1" ]
+      },
+      "Content": "{\"id\":\"/subscriptions/b9e38f20-7c9c-4497-a25d-1a0c5eef2108/resourceGroups/k8sruntime-pwsh-test-rg-76awv3/providers/Microsoft.Kubernetes/connectedClusters/76awv3-arc/providers/Microsoft.KubernetesRuntime/loadBalancers/test1\",\"name\":\"test1\",\"type\":\"microsoft.kubernetesruntime/loadbalancers\",\"systemData\":{\"createdBy\":\"xinyichen@microsoft.com\",\"createdByType\":\"User\",\"createdAt\":\"2024-08-20T04:55:37.1245703Z\",\"lastModifiedBy\":\"xinyichen@microsoft.com\",\"lastModifiedByType\":\"User\",\"lastModifiedAt\":\"2024-08-20T04:55:37.1245703Z\"},\"properties\":{\"addresses\":[\"192.168.50.1/32\"],\"serviceSelector\":null,\"advertiseMode\":\"ARP\",\"bgpPeers\":null,\"provisioningState\":\"Succeeded\"}}",
+      "isContentBase64": false
+    }
+  },
+  "AzKubernetesRuntimeLoadBalancer+[NoContext]+Creates, Gets and Deletes a load balancer+$GET+https://management.azure.com//subscriptions/b9e38f20-7c9c-4497-a25d-1a0c5eef2108/resourceGroups/k8sruntime-pwsh-test-rg-76awv3/providers/Microsoft.Kubernetes/connectedClusters/76awv3-arc/providers/Microsoft.KubernetesRuntime/loadBalancers/test1?api-version=2024-05-01-preview+2": {
+    "Request": {
+      "Method": "GET",
+      "RequestUri": "https://management.azure.com//subscriptions/b9e38f20-7c9c-4497-a25d-1a0c5eef2108/resourceGroups/k8sruntime-pwsh-test-rg-76awv3/providers/Microsoft.Kubernetes/connectedClusters/76awv3-arc/providers/Microsoft.KubernetesRuntime/loadBalancers/test1?api-version=2024-05-01-preview",
+      "Content": null,
+      "isContentBase64": false,
+      "Headers": {
+        "Authorization": [ "[Filtered]" ],
+        "x-ms-unique-id": [ "23" ],
+        "x-ms-client-request-id": [ "0b39acb9-365b-4d5a-9e2b-5409a7aa35d9" ],
+        "CommandName": [ "New-AzKubernetesRuntimeLoadBalancer" ],
+        "FullCommandName": [ "New-AzKubernetesRuntimeLoadBalancer_CreateExpanded" ],
+        "ParameterSetName": [ "__AllParameterSets" ],
+        "User-Agent": [ "AzurePowershell/v0.0.0", "PSVersion/v7.2.19", "Az.KubernetesRuntime/0.1.0" ]
+      },
+      "ContentHeaders": {
+      }
+    },
+    "Response": {
+      "StatusCode": 200,
+      "Headers": {
+        "Cache-Control": [ "no-cache" ],
+        "Pragma": [ "no-cache" ],
+        "ETag": [ "\"0b00753d-0000-3400-0000-66c421d00000\"" ],
+        "x-ms-ratelimit-remaining-subscription-reads": [ "11998" ],
+        "x-ms-providerhub-traffic": [ "True" ],
+        "x-ms-request-id": [ "46621005-837c-44df-a413-acf5dc8c41d4" ],
+        "x-ms-correlation-request-id": [ "7a5803a1-95ea-4762-9eb3-995193371cbe" ],
+        "x-ms-routing-request-id": [ "JAPANEAST:20240820T045616Z:7a5803a1-95ea-4762-9eb3-995193371cbe" ],
+        "Strict-Transport-Security": [ "max-age=31536000; includeSubDomains" ],
+        "X-Content-Type-Options": [ "nosniff" ],
+        "X-Cache": [ "CONFIG_NOCACHE" ],
+        "X-MSEdge-Ref": [ "Ref A: 85429F72056C4CFF943307B23D2C2F80 Ref B: TYO201151002062 Ref C: 2024-08-20T04:56:15Z" ],
+        "Date": [ "Tue, 20 Aug 2024 04:56:15 GMT" ]
+      },
+      "ContentHeaders": {
+        "Content-Length": [ "668" ],
+        "Content-Type": [ "application/json; charset=utf-8" ],
+        "Expires": [ "-1" ]
+      },
+      "Content": "{\"id\":\"/subscriptions/b9e38f20-7c9c-4497-a25d-1a0c5eef2108/resourceGroups/k8sruntime-pwsh-test-rg-76awv3/providers/Microsoft.Kubernetes/connectedClusters/76awv3-arc/providers/Microsoft.KubernetesRuntime/loadBalancers/test1\",\"name\":\"test1\",\"type\":\"microsoft.kubernetesruntime/loadbalancers\",\"systemData\":{\"createdBy\":\"xinyichen@microsoft.com\",\"createdByType\":\"User\",\"createdAt\":\"2024-08-20T04:55:37.1245703Z\",\"lastModifiedBy\":\"xinyichen@microsoft.com\",\"lastModifiedByType\":\"User\",\"lastModifiedAt\":\"2024-08-20T04:55:37.1245703Z\"},\"properties\":{\"addresses\":[\"192.168.50.1/32\"],\"serviceSelector\":null,\"advertiseMode\":\"ARP\",\"bgpPeers\":null,\"provisioningState\":\"Succeeded\"}}",
+      "isContentBase64": false
+    }
+  },
+  "AzKubernetesRuntimeLoadBalancer+[NoContext]+Creates, Gets and Deletes a load balancer+$GET+https://management.azure.com//subscriptions/b9e38f20-7c9c-4497-a25d-1a0c5eef2108/resourceGroups/k8sruntime-pwsh-test-rg-76awv3/providers/Microsoft.Kubernetes/connectedClusters/76awv3-arc/providers/Microsoft.KubernetesRuntime/loadBalancers/test1?api-version=2024-05-01-preview+3": {
+    "Request": {
+      "Method": "GET",
+      "RequestUri": "https://management.azure.com//subscriptions/b9e38f20-7c9c-4497-a25d-1a0c5eef2108/resourceGroups/k8sruntime-pwsh-test-rg-76awv3/providers/Microsoft.Kubernetes/connectedClusters/76awv3-arc/providers/Microsoft.KubernetesRuntime/loadBalancers/test1?api-version=2024-05-01-preview",
+      "Content": null,
+      "isContentBase64": false,
+      "Headers": {
+        "Authorization": [ "[Filtered]" ],
+        "x-ms-unique-id": [ "24" ],
+        "x-ms-client-request-id": [ "0b39acb9-365b-4d5a-9e2b-5409a7aa35d9" ],
+        "CommandName": [ "New-AzKubernetesRuntimeLoadBalancer" ],
+        "FullCommandName": [ "New-AzKubernetesRuntimeLoadBalancer_CreateExpanded" ],
+        "ParameterSetName": [ "__AllParameterSets" ],
+        "User-Agent": [ "AzurePowershell/v0.0.0", "PSVersion/v7.2.19", "Az.KubernetesRuntime/0.1.0" ]
+      },
+      "ContentHeaders": {
+      }
+    },
+    "Response": {
+      "StatusCode": 200,
+      "Headers": {
+        "Cache-Control": [ "no-cache" ],
+        "Pragma": [ "no-cache" ],
+        "ETag": [ "\"0b00753d-0000-3400-0000-66c421d00000\"" ],
+        "x-ms-ratelimit-remaining-subscription-reads": [ "11998" ],
+        "x-ms-providerhub-traffic": [ "True" ],
+        "x-ms-request-id": [ "0952537b-4f77-4b73-b40a-84fe8f0c15cc" ],
+        "x-ms-correlation-request-id": [ "a00db937-0f20-415a-a2ce-8561442408de" ],
+        "x-ms-routing-request-id": [ "JAPANEAST:20240820T045616Z:a00db937-0f20-415a-a2ce-8561442408de" ],
+        "Strict-Transport-Security": [ "max-age=31536000; includeSubDomains" ],
+        "X-Content-Type-Options": [ "nosniff" ],
+        "X-Cache": [ "CONFIG_NOCACHE" ],
+        "X-MSEdge-Ref": [ "Ref A: 4268A86D4F904B169BD2F2C0508D51F3 Ref B: TYO201151002062 Ref C: 2024-08-20T04:56:16Z" ],
+        "Date": [ "Tue, 20 Aug 2024 04:56:16 GMT" ]
+      },
+      "ContentHeaders": {
+        "Content-Length": [ "668" ],
+        "Content-Type": [ "application/json; charset=utf-8" ],
+        "Expires": [ "-1" ]
+      },
+      "Content": "{\"id\":\"/subscriptions/b9e38f20-7c9c-4497-a25d-1a0c5eef2108/resourceGroups/k8sruntime-pwsh-test-rg-76awv3/providers/Microsoft.Kubernetes/connectedClusters/76awv3-arc/providers/Microsoft.KubernetesRuntime/loadBalancers/test1\",\"name\":\"test1\",\"type\":\"microsoft.kubernetesruntime/loadbalancers\",\"systemData\":{\"createdBy\":\"xinyichen@microsoft.com\",\"createdByType\":\"User\",\"createdAt\":\"2024-08-20T04:55:37.1245703Z\",\"lastModifiedBy\":\"xinyichen@microsoft.com\",\"lastModifiedByType\":\"User\",\"lastModifiedAt\":\"2024-08-20T04:55:37.1245703Z\"},\"properties\":{\"addresses\":[\"192.168.50.1/32\"],\"serviceSelector\":null,\"advertiseMode\":\"ARP\",\"bgpPeers\":null,\"provisioningState\":\"Succeeded\"}}",
+      "isContentBase64": false
+    }
+  },
+  "AzKubernetesRuntimeLoadBalancer+[NoContext]+Creates, Gets and Deletes a load balancer+$GET+https://management.azure.com//subscriptions/b9e38f20-7c9c-4497-a25d-1a0c5eef2108/resourceGroups/k8sruntime-pwsh-test-rg-76awv3/providers/Microsoft.Kubernetes/connectedClusters/76awv3-arc/providers/Microsoft.KubernetesRuntime/loadBalancers/test1?api-version=2024-05-01-preview+4": {
+    "Request": {
+      "Method": "GET",
+      "RequestUri": "https://management.azure.com//subscriptions/b9e38f20-7c9c-4497-a25d-1a0c5eef2108/resourceGroups/k8sruntime-pwsh-test-rg-76awv3/providers/Microsoft.Kubernetes/connectedClusters/76awv3-arc/providers/Microsoft.KubernetesRuntime/loadBalancers/test1?api-version=2024-05-01-preview",
+      "Content": null,
+      "isContentBase64": false,
+      "Headers": {
+        "x-ms-unique-id": [ "25" ],
+        "x-ms-client-request-id": [ "fa57e5f2-928c-4075-b5c2-a7a94edd779e" ],
+        "CommandName": [ "Get-AzKubernetesRuntimeLoadBalancer" ],
+        "FullCommandName": [ "Get-AzKubernetesRuntimeLoadBalancer_Get" ],
+        "ParameterSetName": [ "__AllParameterSets" ],
+        "User-Agent": [ "AzurePowershell/v0.0.0", "PSVersion/v7.2.19", "Az.KubernetesRuntime/0.1.0" ],
+        "Authorization": [ "[Filtered]" ]
+      },
+      "ContentHeaders": {
+      }
+    },
+    "Response": {
+      "StatusCode": 200,
+      "Headers": {
+        "Cache-Control": [ "no-cache" ],
+        "Pragma": [ "no-cache" ],
+        "ETag": [ "\"0b00753d-0000-3400-0000-66c421d00000\"" ],
+        "x-ms-ratelimit-remaining-subscription-reads": [ "11997" ],
+        "x-ms-providerhub-traffic": [ "True" ],
+        "x-ms-request-id": [ "cdfd716f-2245-4266-964d-0d090840c618" ],
+        "x-ms-correlation-request-id": [ "b3ba5eb4-86ad-40ae-98b8-40edbc110c7f" ],
+        "x-ms-routing-request-id": [ "JAPANEAST:20240820T045617Z:b3ba5eb4-86ad-40ae-98b8-40edbc110c7f" ],
+        "Strict-Transport-Security": [ "max-age=31536000; includeSubDomains" ],
+        "X-Content-Type-Options": [ "nosniff" ],
+        "X-Cache": [ "CONFIG_NOCACHE" ],
+        "X-MSEdge-Ref": [ "Ref A: 096B2714CD244C49AA575CD517BFF412 Ref B: TYO201151002062 Ref C: 2024-08-20T04:56:16Z" ],
+        "Date": [ "Tue, 20 Aug 2024 04:56:16 GMT" ]
+      },
+      "ContentHeaders": {
+        "Content-Length": [ "668" ],
+        "Content-Type": [ "application/json; charset=utf-8" ],
+        "Expires": [ "-1" ]
+      },
+      "Content": "{\"id\":\"/subscriptions/b9e38f20-7c9c-4497-a25d-1a0c5eef2108/resourceGroups/k8sruntime-pwsh-test-rg-76awv3/providers/Microsoft.Kubernetes/connectedClusters/76awv3-arc/providers/Microsoft.KubernetesRuntime/loadBalancers/test1\",\"name\":\"test1\",\"type\":\"microsoft.kubernetesruntime/loadbalancers\",\"systemData\":{\"createdBy\":\"xinyichen@microsoft.com\",\"createdByType\":\"User\",\"createdAt\":\"2024-08-20T04:55:37.1245703Z\",\"lastModifiedBy\":\"xinyichen@microsoft.com\",\"lastModifiedByType\":\"User\",\"lastModifiedAt\":\"2024-08-20T04:55:37.1245703Z\"},\"properties\":{\"addresses\":[\"192.168.50.1/32\"],\"serviceSelector\":null,\"advertiseMode\":\"ARP\",\"bgpPeers\":null,\"provisioningState\":\"Succeeded\"}}",
+      "isContentBase64": false
+    }
+  },
+  "AzKubernetesRuntimeLoadBalancer+[NoContext]+Creates, Gets and Deletes a load balancer+$DELETE+https://management.azure.com//subscriptions/b9e38f20-7c9c-4497-a25d-1a0c5eef2108/resourceGroups/k8sruntime-pwsh-test-rg-76awv3/providers/Microsoft.Kubernetes/connectedClusters/76awv3-arc/providers/Microsoft.KubernetesRuntime/loadBalancers/test1?api-version=2024-05-01-preview+5": {
+    "Request": {
+      "Method": "DELETE",
+      "RequestUri": "https://management.azure.com//subscriptions/b9e38f20-7c9c-4497-a25d-1a0c5eef2108/resourceGroups/k8sruntime-pwsh-test-rg-76awv3/providers/Microsoft.Kubernetes/connectedClusters/76awv3-arc/providers/Microsoft.KubernetesRuntime/loadBalancers/test1?api-version=2024-05-01-preview",
+      "Content": null,
+      "isContentBase64": false,
+      "Headers": {
+        "x-ms-unique-id": [ "26" ],
+        "x-ms-client-request-id": [ "0343f1d0-0e1d-4faa-af79-11dad2ae4652" ],
+        "CommandName": [ "Remove-AzKubernetesRuntimeLoadBalancer" ],
+        "FullCommandName": [ "Remove-AzKubernetesRuntimeLoadBalancer_Delete" ],
+        "ParameterSetName": [ "__AllParameterSets" ],
+        "User-Agent": [ "AzurePowershell/v0.0.0", "PSVersion/v7.2.19", "Az.KubernetesRuntime/0.1.0" ],
+        "Authorization": [ "[Filtered]" ]
+      },
+      "ContentHeaders": {
+      }
+    },
+    "Response": {
+      "StatusCode": 200,
+      "Headers": {
+        "Cache-Control": [ "no-cache" ],
+        "Pragma": [ "no-cache" ],
+        "x-ms-providerhub-traffic": [ "True" ],
+        "mise-correlation-id": [ "770d6294-62ff-4666-b368-6d1e117c417d" ],
+        "x-ms-request-id": [ "00000000-0000-0000-0000-000000000000" ],
+        "x-ms-ratelimit-remaining-subscription-deletes": [ "14999" ],
+        "x-ms-correlation-request-id": [ "d00c0cff-0c2e-4dd5-a44d-bce80c68d763" ],
+        "x-ms-routing-request-id": [ "JAPANEAST:20240820T045622Z:d00c0cff-0c2e-4dd5-a44d-bce80c68d763" ],
+        "Strict-Transport-Security": [ "max-age=31536000; includeSubDomains" ],
+        "X-Content-Type-Options": [ "nosniff" ],
+        "X-Cache": [ "CONFIG_NOCACHE" ],
+        "X-MSEdge-Ref": [ "Ref A: DEF0C8E82D8C4A659C26F01CC75C03C1 Ref B: TYO201151002062 Ref C: 2024-08-20T04:56:17Z" ],
+        "Date": [ "Tue, 20 Aug 2024 04:56:21 GMT" ]
+      },
+      "ContentHeaders": {
+        "Expires": [ "-1" ],
+        "Content-Length": [ "0" ]
+      },
+      "Content": null,
+      "isContentBase64": false
+    }
+  },
+  "AzKubernetesRuntimeLoadBalancer+[NoContext]+Creates, Gets and Deletes a load balancer+$GET+https://management.azure.com//subscriptions/b9e38f20-7c9c-4497-a25d-1a0c5eef2108/resourceGroups/k8sruntime-pwsh-test-rg-76awv3/providers/Microsoft.Kubernetes/connectedClusters/76awv3-arc/providers/Microsoft.KubernetesRuntime/loadBalancers/test1?api-version=2024-05-01-preview+6": {
+    "Request": {
+      "Method": "GET",
+      "RequestUri": "https://management.azure.com//subscriptions/b9e38f20-7c9c-4497-a25d-1a0c5eef2108/resourceGroups/k8sruntime-pwsh-test-rg-76awv3/providers/Microsoft.Kubernetes/connectedClusters/76awv3-arc/providers/Microsoft.KubernetesRuntime/loadBalancers/test1?api-version=2024-05-01-preview",
+      "Content": null,
+      "isContentBase64": false,
+      "Headers": {
+        "x-ms-unique-id": [ "27" ],
+        "x-ms-client-request-id": [ "6a58d274-5f50-4e43-962a-0798c8f379b4" ],
+        "CommandName": [ "Get-AzKubernetesRuntimeLoadBalancer" ],
+        "FullCommandName": [ "Get-AzKubernetesRuntimeLoadBalancer_Get" ],
+        "ParameterSetName": [ "__AllParameterSets" ],
+        "User-Agent": [ "AzurePowershell/v0.0.0", "PSVersion/v7.2.19", "Az.KubernetesRuntime/0.1.0" ],
+        "Authorization": [ "[Filtered]" ]
+      },
+      "ContentHeaders": {
+      }
+    },
+    "Response": {
+      "StatusCode": 404,
+      "Headers": {
+        "Cache-Control": [ "no-cache" ],
+        "Pragma": [ "no-cache" ],
+        "x-ms-ratelimit-remaining-subscription-reads": [ "11997" ],
+        "x-ms-providerhub-traffic": [ "True" ],
+        "x-ms-failure-cause": [ "gateway" ],
+        "x-ms-request-id": [ "65cf91ed-67f3-4ca5-a481-c67bb59d5bb0" ],
+        "x-ms-correlation-request-id": [ "e2f3eeb4-9970-4f5c-a47d-50b760d2eb95" ],
+        "x-ms-routing-request-id": [ "JAPANEAST:20240820T045627Z:e2f3eeb4-9970-4f5c-a47d-50b760d2eb95" ],
+        "Strict-Transport-Security": [ "max-age=31536000; includeSubDomains" ],
+        "X-Content-Type-Options": [ "nosniff" ],
+        "X-Cache": [ "CONFIG_NOCACHE" ],
+        "X-MSEdge-Ref": [ "Ref A: C98C72B5B2174B508BB21151F521A6E8 Ref B: TYO201151002062 Ref C: 2024-08-20T04:56:22Z" ],
+        "Date": [ "Tue, 20 Aug 2024 04:56:27 GMT" ]
+      },
+      "ContentHeaders": {
+        "Content-Length": [ "192" ],
+        "Content-Type": [ "application/json" ],
+        "Expires": [ "-1" ]
+      },
+      "Content": "{\"error\":{\"code\":\"ResourceNotFound\",\"message\":\"The resource \u0027Microsoft.Kubernetes/connectedClusters/76awv3-arc/providers/Microsoft.KubernetesRuntime/loadBalancers/test1\u0027 could not be found.\"}}",
+      "isContentBase64": false
+    }
+  }
+}
